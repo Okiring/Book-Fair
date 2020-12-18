@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.airbnb.lottie.LottieAnimationView
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        android:layout_gravity="center"
+        app:lottie_cacheComposition="true"
+        app:lottie_rawRes="@raw/check_success"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+      android:id="@+id/message"
+        android:text="Record saved successfully"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/back"
+        android:background="@drawable/button_background_2"
+        android:textColor="@color/white_text_color"
+        android:layout_marginTop="20dp"
+        android:text="Go Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

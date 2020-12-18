@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MBF</string>
+    <string name="app_title">MOGADISHU BOOK FAIR</string>
+    <string name="welcome">Welcome</string>
+    <string name="proceed_title">Proceed As?</string>
+    <string name="proceed">Proceed</string>
+    <string name="organizer">Organizer</string>
+    <string name="attender">Attender</string>
+    <string name="banner_description">Banner</string>
+    <string name="home">Home</string>
+    <string name="mogadishu">MOGADISHU</string>
+    <string name="book">BOOK</string>
+    <string name="login">"Login"</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_content"> Save</string>
+    <string name="email_hint"> "Email"</string>
+    <string name="password_hint">" Password"</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="fair">FAIR</string>
+    <string name="action_settings">Settings</string>
+</resources>

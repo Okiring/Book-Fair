@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary">
+
+
+        <TextView
+            android:text="Comments"
+            android:layout_gravity="center"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@color/white_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.Toolbar>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:padding="30dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+<EditText
+    android:inputType="textMultiLine"
+       android:lines="8"
+    android:id="@+id/commentEditBox"
+       android:minLines="6"
+    android:background="@drawable/edit_border_background"
+       android:gravity="top|left"
+       android:maxLines="10"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:scrollbars="vertical"
+    />
+
+       <Button
+           android:layout_marginTop="10dp"
+           android:id="@+id/post"
+           android:background="@drawable/button_background_2"
+           android:textColor="@color/white_text_color"
+           android:text="POST"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <View
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@android:color/darker_gray"/>
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recyclerView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

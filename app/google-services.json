@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137334446073",
+    "project_id": "the-mogadishu-bookfair",
+    "storage_bucket": "the-mogadishu-bookfair.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137334446073:android:81acfa5dcd10ffaed30f28",
+        "android_client_info": {
+          "package_name": "com.mudez.mbf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137334446073-49hs756n6h72j9f1kld80gfqi0dgainn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8yYkFkfMYvBDf-K4EolxoFmg8caaNBF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137334446073-49hs756n6h72j9f1kld80gfqi0dgainn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

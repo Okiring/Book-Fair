@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary">
+
+
+        <TextView
+            android:text="@string/welcome"
+            android:layout_gravity="center"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@color/white_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:contentDescription="@string/banner_description"
+        android:id="@+id/banner"
+        android:scaleType="fitXY"
+        android:layout_below="@id/toolbar"
+        android:src="@drawable/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+
+    <TextView
+        android:layout_below="@id/banner"
+        android:layout_marginTop="15dp"
+       android:id="@+id/title"
+        android:textStyle="bold"
+        android:text="@string/proceed_title"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <GridView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/title"
+        android:id="@+id/gridView"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/proceed"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="40dp"
+        android:text="@string/proceed"
+        android:textColor="@color/white_text_color"
+        android:background="@drawable/button_background_2"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
