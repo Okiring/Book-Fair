@@ -73,14 +73,14 @@ public class AgendaViewActivity extends AppCompatActivity {
             int position = bundle.getInt("position");
             toolbar.setTitle("Day".concat(" ").concat(String.valueOf(position +1)));
             if(position == 0){
-                banner.setImageResource(R.drawable.day_1);
+                banner.setImageResource(R.drawable.banner_b_2);
 
 
             }else if(position == 1){
-                banner.setImageResource(R.drawable.day_2);
+                banner.setImageResource(R.drawable.banner_b_1);
 
             }else{
-                banner.setImageResource(R.drawable.day_3);
+                banner.setImageResource(R.drawable.banner_b_3);
             }
         }
 
